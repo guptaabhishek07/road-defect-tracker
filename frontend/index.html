@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Road Condition Reporter</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css" rel="stylesheet">
+</head>
+<body>
+  <div id="map"></div>
+  <div id="form">
+    <select id="defectType">
+      <option>Pothole</option>
+      <option>Crack</option>
+      <option>Uneven Surface</option>
+    </select>
+    <input type="number" id="severity" placeholder="Severity 1-5">
+    <textarea id="notes" placeholder="Notes (optional)"></textarea>
+    <button onclick="submitDefect()">Submit</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

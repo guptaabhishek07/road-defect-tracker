@@ -1,0 +1,32 @@
+{
+    "dev": {
+      "app_function": "app.app",
+      "aws_region": "ap-south-1",
+      "profile_name": "zappa-deployer",
+      "manage_roles": true,
+      "project_name": "backend",
+      "runtime": "python3.12",
+      "s3_bucket": "zappa-0r6scnq4a",
+      "cors": true
+    },
+    "dev_ap_south_1": {
+        "app_function": "app.app",
+        "aws_region": "ap-south-1",
+        "profile_name": "zappa-deployer",
+        "project_name": "backend",
+        "runtime": "python3.12",
+        "s3_bucket": "zappa-0r6scnq4a",
+        "manage_roles": true,
+        "keep_warm": false,
+        "timeout_seconds": 30,
+        "memory_size": 128,
+        "log_level": "DEBUG",
+        "use_apigateway": true,
+        "domain": null,
+        "vpc_config": {},
+        "environment_variables": {
+          "STAGE": "dev"
+    }
+    }
+}
+  

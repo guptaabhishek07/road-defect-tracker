@@ -1,0 +1,12 @@
+[
+    {
+      "type": "Pothole",
+      "severity": 4,
+      "notes": "Major issue",
+      "location": {
+        "lng": 77.58,
+        "lat": 12.97
+      }
+    }
+  ]
+  
